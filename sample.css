@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    flex-direction:row;
+    background-color: #f0f0f0;
+    margin-bottom: 1.4%;
+    align-items:center
+}
+
+.logo img {
+    width: 73px;
+    height: 28px;
+   margin-top:  20px;
+   margin-left: 95px;
+   display: inline-flex;
+}
+nav{
+    
+    font-size: larger;
+    font-family: "Catamaran", system-ui;
+    margin-top:  21px;
+    margin-left: 19px;
+    
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    
+    display: inline-flex;
+    
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: grey;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+a:hover {
+    background-color: #f0f0f0;
+    color: #000000;
+  }
+
+.search-bar {
+    width: 22px; 
+    height: 22px;
+    display: flex;
+    padding-right: 6%;
+    padding-left: 44%;
+    padding-top: 20px;
+    display: inline-flex;
+}
+
+.search-bar input {
+    padding-right: 20%;
+    border: 1px solid #ccc;
+}
+.overlay {
+    position: absolute;
+    top: 32%;
+    left: 3%;
+    width: 12%;
+    height: 10%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:left;
+    padding: 10px;
+    row-gap: 10%;
+    font-family: "Catamaran", system-ui;
+}
+
+.overlay-text {
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-right: 10px;
+    
+    
+    
+}
+.intro{
+    padding-top: 140%;
+    padding-bottom: 10%;
+    margin-left: -2%;
+    margin-bottom: 1%;
+
+}
+
+.overlay-button {
+    background-color: #ffffff;
+    font-family: "Catamaran", system-ui;
+    font-size: 105%;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding-top: 38%;
+    padding: 15px 32px;
+    cursor: pointer;
+    
+}
+h1{
+    font-size:300%;
+    font-family: "Catamaran", system-ui;
+    line-height: 1;
+    padding-bottom: 2%;
+    margin-left: 5%;
+}
+h2{
+    font-size:300%;
+    font-family: "Catamaran", system-ui;
+    line-height: 1;
+    padding-bottom: 10%;
+}
+h5{
+    font-size:90%;
+    font-family: "Catamaran", system-ui;
+    
+    padding-top: 0px;
+    padding-bottom: -10px;
+    
+}
+h4{
+    font-size:150%;
+    font-family: "Catamaran", system-ui;
+}
+
+.wrapper{
+    max-height: 10;
+    padding-top: 2%;
+    border: 1px solid white;
+    display: flex;
+    overflow-x:scroll;
+    
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 20%;
+    margin: 0;
+}
+
+.wrapper .item{
+    width: 300px;
+    height:10px;
+    line-height: 1%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-right: 2px;
+    margin-top: 0;
+    padding-bottom: 10%;
+    
+    
+}
+
+h3{
+    font-size:120%;
+    font-family: "Catamaran", system-ui;
+    padding-top: 20px;
+    padding-bottom: -10px;
+    padding-left: 5%;
+    color:blake;
+    margin-bottom:  0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    
+}
+.content{
+    width: 550px;
+    font-size: xx-large;
+    margin-left: -3%;
+    font-family: "Catamaran", system-ui;
+}
+
+.image {
+    width: 700px; 
+    height: 60%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 5%;
+}
+
+.text {
+    margin: 0;
+    
+}
+
+.container-btn{
+    background-color: #000000;
+    font-family: "Catamaran", system-ui ;
+    font: size 60%;
+    color: white;
+    border: none;
+    padding-top: 38%;
+    margin-left: 5%;  
+    padding: 10px 22px;
+    cursor: pointer;
+}
+.cont-btn{
+    background-color: #000000;
+    font-family: "Catamaran", system-ui ;
+    font-size:60%;
+    color: white;
+    border: none;
+    padding-top: 38%;
+    margin-left: 5%;    
+    padding: 10px 22px;
+    cursor: pointer;
+}
+
+.banner{
+    padding-top: 5%;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    width: 50%;
+    height: 50%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:left;
+    padding: 10px;
+    padding-top: 150%;
+    row-gap: 10%;
+    font-family: "Catamaran", system-ui;
+}
+
+.overlay-text1 {
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-right: 10px;
+    
+    
+    
+}
+.intro1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: -2%;
+    margin-top: 5%;
+    background-color: white;
+
+}
+
+.overlay-button1 {
+    background-color: #000000;
+    font-family: "Catamaran", system-ui;
+    font-size: 105%;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding-top: 38%;
+    padding: 15px 32px;
+    cursor: pointer;
+    
+}
+.cont-btn{
+    background-color: #ffffff;
+    font-family: "Catamaran", system-ui;
+    font-size: 105%;
+    color: rgb(0, 0, 0);
+    border: 1px solid;
+    padding-top: 38%;
+    padding: 15px 32px;
+    cursor: pointer;
+    
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    margin-bottom: 5%;
+    
+}
+.content1{
+    width: 4000px;
+    font-size: xx-large;
+    margin-left: 0%;
+    font-family: "Catamaran", system-ui;
+    
+}
+
+.image1 {
+    width: 100%; 
+    height: auto;
+}
+.image2 {
+    width: 67%; 
+    height: auto;
+}
+.image3 {
+    width: 1000px; 
+    height:750px ;
+    padding-top: -5%;
+}
+#pop{
+    color: white;
+    font-family: "Catamaran", system-ui;
+    padding-bottom: 50%;
+    margin-left: 5%;
+}
+#pop1{
+    color: white;
+    font-family: "Catamaran", system-ui;
+    padding-bottom: 2%;
+    padding-top: 40%;
+    margin-left: 5%;
+}
+
+.pop-btn{
+    background-color: #000000;
+    font-family: "Catamaran", system-ui;
+    font-size: 60%;
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+    padding-top: 100%;
+    padding: 10px 70px;
+    cursor: pointer;
+    margin-left: 10%;
+    
+}
+
+.grid1{
+    width: 80%;
+    max-height: 10;
+    padding-top: 2%;
+    border: 1px solid white;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+}
+
+
+.picture{
+    width: 40%;
+    height:5%;
+    line-height: 1%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-right: 2px;
+    margin-top: 0;
+    padding-bottom: 10%;
+    
+    
+}
+#label{
+    
+    font-size:110%;
+    font-family: "Catamaran", system-ui;
+    text-align: left;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    margin-left: -5%;
+    
+}
+#link{
+    font-size:110%;
+    font-family: "Catamaran", system-ui;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: -35%;
+    margin-left: -5%;
+}
+
+.footer{
+    background-color: #000000;
+   
+}
+#back{
+    color: white;
+    text-align: right;
+    margin-right: 5%;
+    padding-top: 2%;
+}
+#a-back{
+  
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+}
+   
+#a-back:hover {
+        background-color: #000000;
+        color:grey;
+      }
+
+.footer {
+    background-color: #000000;
+    padding: 20px;
+    justify-items: center;
+    text-decoration:none;
+  }
+  
+.footer-content{
+    width: 90%;
+    color: white;
+    align-items:baseline;
+    display: inline-flex;
+    list-style: none;
+    justify-content:center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: large;
+    padding-bottom: 10%;
+    
+}
+#head{
+    text-align:justify;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+.footer-content div {
+    font-family: "Catamaran", system-ui;
+    text-decoration:none;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    display:inline;
+}
+.footer-logo{
+    justify-items: right;
+    margin-left: 80%;
+    
+}
+.footer2{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    
+}
+.footer2-head{
+    margin-left: 5%;
+    display:flex;
+    
+}
+#h{
+    padding-left: 2%;
+}
+
+#a-f{
+  
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#a-f:hover {
+    background-color: #000000;
+    color:grey;
+  }
+
+  #footer-para{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+    
+    font-family: "Catamaran", system-ui;
+  }
+
+  #fixed{
+    position: fixed;
+    left: 95%;
+    top: 90%;
+    
+  }
