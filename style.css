@@ -486,6 +486,7 @@ h3{
   #fixed{
     position: fixed;
     left: 95%;
-    top: 90%;
+    top: 89%;
+    border-radius: 50%;
     
   }
